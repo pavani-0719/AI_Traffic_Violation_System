@@ -1,0 +1,28 @@
+venv/
+__pycache__/
+*.pyc
+.env
+
+# Uploaded/generated files
+input/images/
+output/violations/
+
+# Dataset
+Helmet Detection_YOLOv8.v1i.yolov8/
+Helmet Detection_YOLOv8.v1i.yolov8.zip
+
+# YOLO training files
+runs/detect/train/
+runs/detect/train-2/
+runs/detect/train-3/
+runs/detect/train-4/
+runs/detect/train-5/*.png
+runs/detect/train-5/*.jpg
+runs/detect/train-5/*.csv
+runs/detect/train-5/*.yaml
+
+# Keep trained models
+!runs/detect/train-5/
+!runs/detect/train-5/weights/
+!runs/detect/train-5/weights/best.pt
+!runs/detect/train-5/weights/last.pt
